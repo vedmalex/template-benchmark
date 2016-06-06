@@ -2,6 +2,7 @@ var data = require('./data');
 
 var count = 100000;
 var ect = require('./ect/ect.js');
+var ftejs = require('./fte.js/fte.js');
 var ejs = require('./ejs/ejs.js');
 var ejsWithoutWith = require('./ejs-without-with/ejs.js');
 var jade = require('./jade/jade.js');
@@ -63,13 +64,14 @@ var samples = [
 	{ name : 'EJS', sample : ejs },
 	{ name : 'Underscore', sample : underscore },
 	{ name : 'Swig', sample : swig },
-	{ name : 'doT', sample : dot },
 	{ name : 'EJS without `with`', sample : ejsWithoutWith },
 	{ name : 'Fest', sample : fest },
-	{ name : 'Gaikan', sample: gaikan },
 	{ name : 'Hogan.js', sample : hogan },
 	{ name : 'Dust', sample : dust },
-	{ name : 'ECT', sample : ect }
+	{ name : 'doT', sample : dot },
+	{ name : 'fTE.js', sample : ftejs },
+	{ name : 'ECT', sample : ect },
+	{ name : 'Gaikan', sample: gaikan },
 ];
 
 var runTests = function () {

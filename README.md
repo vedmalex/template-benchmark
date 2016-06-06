@@ -18,88 +18,93 @@
 
 ## Test environment
 
-- CPU: Intel Core i5 450M 2.4Ghz
-- OS: Ubuntu Server 12.04
-- Node.JS version: 0.8.21
+- CPU: Intel core i7-3632QM CPU @ 2.20GHz x 8, SSD 250G
+- OS: 64-bit Ubuntu 16.04 LTS
+- Node.JS version: v6.21
 
 ## Results
 
-	Rendering 100000 templates:
+Rendering 100000 templates:
 
-	ECT
-	  Escaped   : 2180ms
-	  Unescaped : 133ms
-	  Total     : 2313ms
+Gaikan
+  Escaped   : 1514ms
+  Unescaped : 60ms
+  Total     : 1574ms
 
-	Dust
-	  Escaped   : 2547ms
-	  Unescaped : 363ms
-	  Total     : 2910ms
+ECT
+  Escaped   : 1437ms
+  Unescaped : 96ms
+  Total     : 1533ms
 
-	Hogan.js
-	  Escaped   : 3252ms
-	  Unescaped : 758ms
-	  Total     : 4010ms
+fTE.js
+  Escaped   : 1414ms
+  Unescaped : 79ms
+  Total     : 1493ms
 
-	Gaikan
-	  Escaped   : 4288ms
-	  Unescaped : 85ms
-	  Total     : 4373ms
+doT
+  Escaped   : 2001ms
+  Unescaped : 47ms
+  Total     : 2048ms
 
-	Fest
-	  Escaped   : 4179ms
-	  Unescaped : 265ms
-	  Total     : 4444ms
+Dust
+  Escaped   : 1834ms
+  Unescaped : 412ms
+  Total     : 2246ms
 
-	EJS without `with`
-	  Escaped   : 4526ms
-	  Unescaped : 485ms
-	  Total     : 5011ms
+Hogan.js
+  Escaped   : 1746ms
+  Unescaped : 328ms
+  Total     : 2074ms
 
-	doT
-	  Escaped   : 5329ms
-	  Unescaped : 82ms
-	  Total     : 5411ms
+Fest
+  Escaped   : 1641ms
+  Unescaped : 249ms
+  Total     : 1890ms
 
-	Swig
-	  Escaped   : 5020ms
-	  Unescaped : 407ms
-	  Total     : 5427ms
+EJS without `with`
+  Escaped   : 3764ms
+  Unescaped : 644ms
+  Total     : 4408ms
 
-	Underscore
-	  Escaped   : 5775ms
-	  Unescaped : 2486ms
-	  Total     : 8261ms
+Swig
+  Escaped   : 3767ms
+  Unescaped : 282ms
+  Total     : 4049ms
 
-	Eco
-	  Escaped   : 8512ms
-	  Unescaped : 991ms
-	  Total     : 9503ms
+Underscore
+  Escaped   : 2179ms
+  Unescaped : 1270ms
+  Total     : 3449ms
 
-	EJS
-	  Escaped   : 6316ms
-	  Unescaped : 2734ms
-	  Total     : 9050ms
+EJS
+  Escaped   : 5825ms
+  Unescaped : 2116ms
+  Total     : 7941ms
 
-	Handlebars.js
-	  Escaped   : 7815ms
-	  Unescaped : 2573ms
-	  Total     : 10388ms
+Eco
+  Escaped   : 4249ms
+  Unescaped : 1123ms
+  Total     : 5372ms
 
-	Jade without `with`
-	  Escaped   : 8566ms
-	  Unescaped : 2982ms
-	  Total     : 11548ms
+Handlebars.js
+  Escaped   : 4485ms
+  Unescaped : 2398ms
+  Total     : 6883ms
 
-	CoffeeKup
-	  Escaped   : 4968ms
-	  Unescaped : 9983ms
-	  Total     : 14951ms
+Jade without `with`
+  Escaped   : 6521ms
+  Unescaped : 2594ms
+  Total     : 9115ms
 
-	Jade
-	  Escaped   : 18330ms
-	  Unescaped : 12095ms
-	  Total     : 30425ms
+CoffeeKup
+  Escaped   : 3147ms
+  Unescaped : 6280ms
+  Total     : 9427ms
+
+Jade
+  Escaped   : 15158ms
+  Unescaped : 11153ms
+  Total     : 26311ms
 
 ## Usage
 
